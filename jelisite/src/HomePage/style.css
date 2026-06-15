@@ -1,0 +1,60 @@
+body
+{
+    font-family: "Comic Sans MS", "Comic Relief", "Courier New";
+}
+
+#top
+{
+    min-height: 70vh;
+    background: linear-gradient(to top, rgb(87, 15, 255), rgb(167, 120, 255));
+    background-repeat: no-repeat;
+}
+
+h1
+{
+    margin: 0;
+    font-size: 100px;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#welcome {
+    margin: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    padding-top: 10vh;
+}
+
+#bottom{
+    position: relative;
+    min-height: 40vh;
+    background-color: rgb(165, 126, 255);
+}
+
+#wave {
+    position: absolute;
+    top: -100px;
+    left: 0;
+    width: 100%;
+    line-height: 0;
+}
+
+#wave svg
+{
+    display: block;
+    fill: rgb(165, 126, 255);
+    width: 100%;
+    height: 120px;
+}
+
+#teehee {
+    margin: 0;
+    font-size: 100px;
+    color: black;
+    text-align: center;
+    padding-top: 5vh;
+}
