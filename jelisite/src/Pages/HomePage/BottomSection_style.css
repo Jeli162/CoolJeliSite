@@ -1,8 +1,13 @@
+.bottom
+{
+    --grad_top: rgb(137, 91, 245);
+}
+
 section.bottom
 {
     position: relative;
     min-height: 40vh;
-    background-color: rgb(165, 126, 255);
+    background: linear-gradient(to top, rgb(185, 155, 255) 20%, var(--grad_top));
 }
 
 p.bottom
@@ -25,7 +30,8 @@ p.bottom
 #wave svg
 {
     display: block;
-    fill: rgb(165, 126, 255);
+    /* fill: url(#wave_grad); */
+    fill: var(--grad_top);
     width: 100%;
     height: 120px;
 }
