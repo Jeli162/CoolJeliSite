@@ -1,4 +1,5 @@
 import "../BottomSection_style.css";
+import {useNavigate} from "react-router-dom";
 
 const Wave = () =>
 {
@@ -13,9 +14,11 @@ const Wave = () =>
 
 const TestButton = () =>
 {
+    const navigate = useNavigate();
+
     function handleClick()
     {
-        console.log("Boo!");
+        navigate("/test");
     }
 
     return <button className="bottom" onClick={handleClick}>Projects</button>
