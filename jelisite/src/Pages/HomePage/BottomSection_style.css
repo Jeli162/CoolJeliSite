@@ -1,13 +1,13 @@
 .bottom
 {
-    --grad_top: rgb(137, 91, 245);
+    --grad_top: rgb(133, 83, 252);
 }
 
 section.bottom
 {
     position: relative;
     min-height: 40vh;
-    background: linear-gradient(to top, rgb(185, 155, 255) 20%, var(--grad_top));
+    background: linear-gradient(to top, rgb(176, 142, 255) 20%, var(--grad_top));
 }
 
 p.bottom
