@@ -3,56 +3,6 @@ body
     font-family: "Comic Sans MS", "Comic Relief", "Courier New";
 }
 
-/* h1
-{
-    margin: 0;
-    font-size: 100px;
-    color: white;
-    text-align: center;
-    padding-top: 50px;
-}
-
-#welcome {
-    margin: 0;
-    margin-left: 20px;
-    margin-right: 20px;
-    font-size: 50px;
-    color: white;
-    text-align: center;
-    padding-top: 10vh;
-}
-
-#bottom{
-    position: relative;
-    min-height: 40vh;
-    background-color: rgb(165, 126, 255);
-}
-
-#wave {
-    position: absolute;
-    top: -120px;
-    left: 0;
-    width: 100%;
-    line-height: 0;
-}
-
-#wave svg
-{
-    display: block;
-    fill: rgb(165, 126, 255);
-    width: 100%;
-    height: 120px;
-}
-
-#teehee
-{
-    margin: 0;
-    font-size: 100px;
-    color: black;
-    text-align: center;
-    padding-top: 1vh;
-}
-
 button
 {
     --width: 300px;
@@ -60,11 +10,6 @@ button
     background-color: rgb(253, 244, 220);
     border-radius: 20px;
     font-size: 200%;
-    width: var(--width);
-    aspect-ratio: 3;
-    margin-left: calc((100% - var(--width)) / 2);
-    margin-top: 3%;
-    margin-bottom: 3%;
 }
 
 button:hover
@@ -76,4 +21,4 @@ button:hover
 button:active
 {
     background-color: rgb(235, 225, 200);
-} */
+}
