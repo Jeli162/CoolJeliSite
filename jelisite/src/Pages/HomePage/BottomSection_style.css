@@ -30,7 +30,6 @@ p.bottom
 #wave svg
 {
     display: block;
-    /* fill: url(#wave_grad); */
     fill: var(--grad_top);
     width: 100%;
     height: 120px;
