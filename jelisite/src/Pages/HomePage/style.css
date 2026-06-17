@@ -3,14 +3,7 @@ body
     font-family: "Comic Sans MS", "Comic Relief", "Courier New";
 }
 
-#top
-{
-    min-height: 70vh;
-    background: linear-gradient(to top, rgb(87, 15, 255), rgb(167, 120, 255));
-    background-repeat: no-repeat;
-}
-
-h1
+/* h1
 {
     margin: 0;
     font-size: 100px;
@@ -83,4 +76,4 @@ button:hover
 button:active
 {
     background-color: rgb(235, 225, 200);
-}
+} */

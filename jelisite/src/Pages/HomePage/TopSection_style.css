@@ -1,25 +1,24 @@
-h1 {
+h1.top
+{
   margin: 0;
-  font-family: "Comic Sans MS", "Comic Relief", "Ariel";
   font-size: 100px;
   color: white;
   text-align: center;
   padding-top: 50px;
 }
 
-p
+p.top
 {
   margin: 0;
   margin-left: 20px;
   margin-right: 20px;
-  font-family: "Comic Sans MS", "Comic Relief", "Ariel";
   font-size: 50px;
   color: white;
   text-align: center;
   padding-top: 10vh;
 }
 
-section
+section.top
 {
   min-height: 70vh;
   background: linear-gradient(to top, rgb(87, 15, 255), rgb(167, 120, 255));
